@@ -1,0 +1,120 @@
+@media only screen and (max-width:768px) {
+    header {
+        padding-left: 1rem;
+
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-1 .fit .fitbdy {
+        height: 41.3rem;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .store a i {
+        font-size: 8vmin;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+
+    .card-body .pricing>h1,
+    .card-body .pricing>h3 {
+        font-size: 4vmin;
+        padding: 1em 0.5em;
+    }
+
+    .purchase .card p {
+        font-size: 0.7rem;
+    }
+
+    .card-body .pricing {
+        background: rgba(208, 241, 215, 0.9);
+    }
+
+    .chota {
+        font-size: 8vmin !important;
+    }
+
+    .chota1 {
+        font-size: 6vmin !important;
+    }
+}
+
+@media only screen and (max-width:600px) {}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    .section-1 .fit .fitbdy {
+        height: 25rem;
+    }
+
+    .section-4 .team .card {
+        width: 18rem;
+    }
+
+    .section-0 .carousel-inner .carousel-item .carousel-caption>h1 {
+        font-size: 10vmin !important;
+
+
+    }
+
+    .section-0 .carousel-inner .carousel-item .carousel-caption>p {
+        font-size: 8vmin !important;
+
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    .section-1 .fit .fitbdy {
+        height: 25rem;
+    }
+
+    .section-4 .team .card {
+        width: 18rem;
+    }
+}

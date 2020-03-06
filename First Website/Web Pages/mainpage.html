@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/cssmobile.css">
+    <script src="../JS/style.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Lobster|Playfair+Display|Sriracha|Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container-fluid p-0">
+            <!-- p-0 removes padding from this div -->
+            <nav class="navbar row navbar-expand-lg scrolling-navbar">
+                <div class="">
+                    <a class="navbar-brand pr-5" href="#">
+                        <i class="fa fa-book fa-3x " aria-hidden="true"></i>Aman
+                        Tyagi</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-align-right text-light"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto">
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Courses</a>
+                                <div class="dropdowncontent">
+                                    <a href="#">Advance Java</a>
+                                    <a href="#">Java</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Price</a>
+                                <div class="dropdowncontent">
+                                    <a href="#">Low</a>
+                                    <a href="#">High</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">Pages</a>
+                                <div class="dropdowncontent">
+                                    <a href="#">Good</a>
+                                    <a href="#">Bad</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">fact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- Nav Finished-->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12" style="padding: 100px 10px;">
+                    <h6>AUTHOR : AMAN TYAGI</h6>
+                    <h1>JAVA</h1>
+                    <p>Java is the name of a programming language created by Sun Microsystems. This company was bought
+                        out by Oracle Corporation, which continues to keep it up to date.
+                    </p>
+                    <button class="hovbut btn btn-light px-5 py-2"
+                        onclick="window.location.href = 'https://www.tutorialspoint.com/java/java_tutorial.pdf'"> Read
+                        now For free</button>
+
+                </div>
+                <div class="col-md-5 col-sm-12 h-25">
+                    <!-- h-25 add 25 %height to the image-->
+                    <img src="../images/book4.jpeg" alt="JAVA Book By AMAN TYAGI">
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="section-0">
+            <div id="fcarosel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#fcarosel" data-slide-to="0"></li>
+                    <li data-target="#fcarosel" data-slide-to="1" class="active"></li>
+                    <li data-target="#fcarosel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/cor1.jpg" class="pic w-100" alt="...">
+                        <div class="carousel-caption phali">
+                            <h5 class="chota">Do You Love Books</h5>
+                            <p class="chota1">"There is a powerhouse of information and knowledge.we have technology
+                                books that teach us about technological developments and different equipment."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/cor4.jpg" class="pic w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Different Genres of Books</h5>
+                            <p>"There are different genres of books available for book readers. Every day, thousands of
+                                books are released in the market ranging from travel books to fictional books."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/cor5.jpg" class="pic w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5 class="chota">Benefits of Reading Books</h5>
+                            <p class="chota1">"There are not one but various advantages of reading books. To begin with,
+                                it improves our knowledge on a variety of subjects. Moreover, it makes us wiser. When we
+                                learn different things."</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#fcarosel" role="button" data-slide="prev">
+                    <span class="" aria-hidden="true"><i class="fa fa-3x cbut fa-arrow-left"
+                            aria-hidden="true"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="#fcarosel" role="button" data-slide="next">
+                    <span class="" aria-hidden="true"><i class="fa fa-3x cbut  fa-arrow-right"
+                            aria-hidden="true"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!-- End of sectio-0 -->
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="fit">
+                            <!--pray replace with fit-->
+                            <img src="../images/body1.jpeg" alt="Fit Body" class="fitbdy">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="height: 37rem;">
+                        <div class="panel text-left">
+                            <h1>MR. Fit Person</h1>
+                            <p>A fit body stays away from diseases; it is more
+                                efficient in work as
+                                compared to someone
+                                who is unfit. A fit body always stays energized and fully enthusiastic. Achieving
+                                fitness is not a big deal; one can easily achieve it with a little effort. There is a
+                                famous saying that “Health is Wealth”, and a fit body strictly follows it.
+                            </p>
+                            <p>
+                                Fitness includes positive thinking with a sound and active mind. Physical fitness is
+                                that state of health which helps to perform our daily activities efficiently with ease
+                                without fatigue and face the challenges of life in a positive ways.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 1 completed-->
+
+        <!-- Section2 start -->
+
+        <section class="section-2 container-fluid p-0" s>
+
+            <div class="cover">
+                <div class="content text-center">
+                    <h1>Some Thing That Made Nature Beautiful</h1>
+                    <p>Nature is that natural and physical world that surrounds us and makes life possible on earth .
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <!-- creates four rect in a single row by giving each div class rect -->
+                    <div class="rect">
+                        <h3>9999</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="rect">
+                        <h3>0</h3>
+                        <p>Sad Clients</p>
+                    </div>
+                    <div class="rect">
+                        <h3>9999</h3>
+                        <p>Books Sold Per Day</p>
+                    </div>
+                    <div class="rect">
+                        <h3>9999</h3>
+                        <p>Booking Printed Per Day</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="purchase text-center">
+                <h1>Purchase Which Book You Like</h1>
+                <p>Good books improve our standard of living.They tone up our intellectual taste they make our outlook
+                    broad.
+                </p>
+                <div class="cards">
+                    <!-- custum Class = Cards , Bootstrap class = card -->
+                    <div class="d-flex flex-row row justify-content-center fles-wrap">
+                        <!-- first card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">JAVA E-Book </h5>
+                                    <p>The platform is used to develop and run Java programs.
+                                    </p>
+                                    <div class="pricing">
+                                        <h3>RS.500</h3>
+                                        <!-- Padding px= Padding in X-axis left and right, py= padding in y-axis top and bottom
+                                             margin bottom = mb-5
+                                        -->
+                                        <a href="" class="btn btn-dark px-5 py-2 mb-5">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- first card end here -->
+                        <!-- second card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Advance JAVA E-Book </h5>
+                                    <p>The platform is used to develop and run advance Java codes.
+                                    </p>
+                                    <div class="pricing">
+                                        <h3>RS.800</h3>
+                                        <!-- Padding px= Padding in X-axis left and right, py= padding in y-axis top and bottom
+                                             margin bottom = mb-5
+                                        -->
+                                        <a href="" class="btn btn-dark px-5 py-2 mb-5">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second card end here -->
+                        <!-- third card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Andriod Book </h5>
+                                    <p>The platform is used to develop and run andriod application.
+                                    </p>
+                                    <div class="pricing">
+                                        <h3>RS.1000</h3>
+                                        <!-- Padding px= Padding in X-axis left and right, py= padding in y-axis top and bottom
+                                             margin bottom = mb-5
+                                        -->
+                                        <a href="" class="btn btn-dark px-5 py-2 mb-5">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- third card end here -->
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section-2 complete -->
+
+        <!-- Section-3 start-->
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1 class="happ">Download Our App For Andriod And ios</h1>
+                    <p class="papp">Just Go and download What are you whaiting for</p>
+                </div>
+            </div>
+            <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="store shadow-lg">
+                        <!-- shadow is bootstrap class to provide shadow in our website -->
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="#" style="color: green;"><i class="fa fa-android fa-4x py-2 pr-3"
+                                    aria-hidden="true"></i></a>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">Andriod</h3>
+                                <p class="p-0 m-0">Get Our App From Andriod Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-left">
+                    <div class="store shadow-lg">
+                        <!-- shadow is bootstrap class to provide shadow in our website -->
+                        <div class="d-flex flex-row justify-content-center">
+                            <a href="#" style="color: silver;"><i class="fa fa-apple fa-4x py-2 pr-3"
+                                    aria-hidden="true"></i></a>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">Apple</h3>
+                                <p class="p-0 m-0">Get Our App From Apple Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section-4-->
+        <section class="section-4">
+            <div class="continer text-center">
+                <h1 class="text-dark">
+                    what our Readers say About us
+                </h1>
+                <p class="text-secondary">
+                    Reviews on Google provide valuable information about your business to both you and your
+                    customers.
+                    Business reviews appear next to your listing in Maps and Search, and can help your business
+                    stand
+                    out on Google.
+                </p>
+            </div>
+            <div class="team row">
+                <div class="col-md-6 col-lg-4 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../images/person5.jpeg" alt="member1" class="img-fluid border-radius">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Anuchuman Mishra</h3>
+                            <p class="card-text">
+                                It’s no wonder the internet is now the first point of contact between consumers and
+                                companies. At a moment’s notice, they can get a list of relevant, nearby businesses
+                                simply by typing a word or phrase into Google. That’s convenience at its finest.
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go To Mast jhajha</a>
+                            <p class="text-black-50">Employee At TyagiIndustry</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center">
+                    <!-- slider suru jo buttons sa ya apna aap images slide karta ha -->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../images/person4.jpeg" alt="member1" class="img-fluid border-radius">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Anuchuman Mishra</h3>
+                            <p class="card-text">
+                                It’s no wonder the internet is now the first point of contact between consumers and
+                                companies. At a moment’s notice, they can get a list of relevant, nearby businesses
+                                simply by typing a word or phrase into Google. That’s convenience at its finest.
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go To Mast jhajha</a>
+                            <p class="text-black-50">Employee At TyagiIndustry</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 col-12 text-center">
+                    <!-- card-4 -->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../images/person2.jpeg" alt="member1" class="img-fluid border-radius">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Anuchuman Mishra</h3>
+                            <p class="card-text">
+                                It’s no wonder the internet is now the first point of contact between consumers and
+                                companies. At a moment’s notice, they can get a list of relevant, nearby businesses
+                                simply by typing a word or phrase into Google. That’s convenience at its finest.
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go To Mast jhajha</a>
+                            <p class="text-black-50">Employee At TyagiIndustry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer start-->
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5">
+                    <h1 class="text-light">
+                        About Us
+                    </h1>
+                    <p class="text-muted">A website or web site is a collection of related network web resources, such
+                        as web pages, multimedia content, which are typically identified with a common domain name, and
+                        published on at least one web server.
+                    </p>
+                    <p class="pt-4 text-muted">
+                        Copyrights © TYAGICoorporation 2017
+                        <br>
+                        <a href="#"><span>Aman Books Website</span></a>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h4 class="text-light">News</h4>
+                    <p class="text-muted">Stay Tunned</p>
+                    <form action="" class="form-inline">
+                        <div class="col">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white" placeholder="Enter Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                    <div class="row">
+                        <h4 class="text-light pl-3 col-xs-12 col-md-12 col-lg-12 col-sm-12">Contact Us</h4>
+
+                        <div class="col-md-12 col-lg-6 col-sm-6 col-xs-6">
+                            <i class="fa fa-phone text-success" aria-hidden="true"></i> <a href="tel:+9810750724">
+                                9810750724</a>
+                        </div>
+                        <div class="col-md-12 col-lg-6 col-sm-12 col-xs-6">
+                            <i class="fa fa-map-marker text-danger" aria-hidden="true"></i><a
+                                href="https://goo.gl/maps/mp6cKohgDWexriQS8"> Our Location</a>
+                        </div>
+
+                        <div class="col-md-12 col-lg-6 col-sm-6 col-xs-6 pt-4">
+                            <i class="fa fa-envelope text-warning" aria-hidden="true"></i> <a
+                                href="https://tyagi.ama070@gmail.com">tyagi.ama070@gmail.com</a>
+                        </div>
+                        <div class="col-md-12 col-lg-6 col-sm-6 col-xs-6 ">
+                            <i class="fa fa-mobile fa-2x  pt-3 text-success" aria-hidden="true"></i> <a
+                                href="tel:+9810750724">With SMS</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-2">
+                    <br>
+                    <h4 class="text-light">Follow</h4>
+                    <p class="text-muted">Follow Us Socially</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-6">
+                            <a href="https://www.facebook.com/amantyagi2310"><i
+                                    class="fa fa-2x fa-facebook-official text-primary" aria-hidden="true"></i></a></div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-6"><a
+                                href="https://www.instagram.com/tyagiaman070/"><i
+                                    class="fa fa-2x  fa-instagram text-danger" aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-6"><a
+                                href="https://twitter.com/AmanTya67928669"><i class="fa fa-2x  fa-twitter text-primary"
+                                    aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-6"><a
+                                href="https://www.youtube.com/channel/UCtaNN1vOLHUivEBXTqvthyQ?view_as=subscriber"><i
+                                    class="fa fa-2x  fa-youtube text-danger" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</body>
+
+</html>
